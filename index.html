@@ -4,79 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lunas Hutang Lewat Jalur Langit</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Inter', sans-serif; background: #fdfdfd; color: #222; line-height: 1.6; }
-    .container { max-width: 800px; margin: auto; padding: 40px 20px; }
-    h1, h2 { color: #c08401; }
-    h1 { font-size: 2.2rem; margin-bottom: 16px; }
-    h2 { font-size: 1.6rem; margin: 30px 0 16px; }
-    p { margin-bottom: 16px; }
-    ul { margin-bottom: 16px; padding-left: 20px; }
-    .btn {
-      display: inline-block;
-      background: #c08401;
-      color: #fff;
-      text-decoration: none;
-      padding: 12px 24px;
-      border-radius: 8px;
-      font-weight: bold;
-      margin-top: 20px;
-    }
-    .card { background: #fff9ea; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #eee; }
-    .faq dt { font-weight: bold; margin-top: 10px; }
-    .faq dd { margin-bottom: 10px; }
-    footer { text-align: center; font-size: 0.9rem; color: #777; margin-top: 40px; }
+    body { font-family: 'Inter', sans-serif; }
   </style>
 </head>
-<body>
-  <div class="container">
-    <h1>Lunas Hutang Lewat Jalur Langit</h1>
-    <p><em>eBook spiritual dan praktis yang bantu kamu terbebas dari jeratan hutang, dengan pendekatan langit & bumi.</em></p>
-    <a href="#order" class="btn">Pesan Sekarang</a>
+<body class="bg-yellow-50 text-gray-800">
 
-    <h2>Apa yang Kamu Dapatkan?</h2>
-    <ul>
-      <li>Langkah-langkah spiritual pelunasan hutang dari Al-Qur'an dan hadits</li>
-      <li>Strategi praktis & realistis untuk keluar dari lilitan hutang</li>
-      <li>Doa-doa pilihan dan dzikir khusus untuk kelapangan rezeki</li>
-      <li>Kisah nyata yang memotivasi dan menguatkan</li>
-      <li>Bonus: worksheet keuangan, audio dzikir, dan akses komunitas</li>
-    </ul>
+  <header class="bg-yellow-100 text-center py-12 shadow">
+    <h1 class="text-3xl font-bold text-amber-600">Lunas Hutang Lewat Jalur Langit</h1>
+    <p class="mt-4 text-lg">Panduan spiritual & praktis melunasi hutang dengan pendekatan langit dan bumi.</p>
+    <a href="#order" class="mt-6 inline-block bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition">Pesan Sekarang</a>
+  </header>
 
-    <h2 id="order">Paket Harga</h2>
-    <div class="card">
-      <strong>Paket Dasar – Rp 59.000</strong><br>
-      eBook lengkap dalam format PDF
-    </div>
-    <div class="card">
-      <strong>Paket Spesial – Rp 89.000</strong><br>
-      eBook + bonus worksheet + doa harian
-    </div>
-    <div class="card">
-      <strong>Paket Lengkap – Rp 129.000</strong><br>
-      Semua di atas + audio renungan + akses grup komunitas eksklusif
-    </div>
-    <a href="https://wa.me/6281234567890?text=Saya%20mau%20pesan%20eBook%20Lunas%20Hutang%20Lewat%20Jalur%20Langit" class="btn">Pesan Lewat WhatsApp</a>
+  <main class="max-w-3xl mx-auto px-6 py-12">
+    <section>
+      <h2 class="text-2xl font-semibold text-amber-700 mb-4">Apa yang Akan Kamu Dapatkan?</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>Amalan dan doa pelunasan hutang dari Al-Qur’an dan Hadits</li>
+        <li>Strategi realistis dan syar’i untuk keluar dari jeratan hutang</li>
+        <li>Worksheet keuangan & audio dzikir harian</li>
+        <li>Kisah nyata penuh harapan</li>
+        <li>Akses komunitas dukungan spiritual</li>
+      </ul>
+    </section>
 
-    <h2>Pertanyaan Umum</h2>
-    <dl class="faq">
-      <dt>Apakah cocok untuk saya yang tidak paham agama?</dt>
-      <dd>Ya. Bahasanya sederhana dan membumi, cocok untuk semua latar belakang.</dd>
-      <dt>Apakah ini solusi instan?</dt>
-      <dd>Bukan. Ini panduan ikhtiar sungguh-sungguh dengan pendekatan spiritual dan realistis.</dd>
-      <dt>Apakah bisa dibaca di HP?</dt>
-      <dd>Bisa. eBook ini berbentuk PDF dan bisa dibaca di HP, tablet, maupun laptop.</dd>
-    </dl>
+    <section id="order" class="mt-12">
+      <h2 class="text-2xl font-semibold text-amber-700 mb-4">Pilih Paket</h2>
+      <div class="grid gap-6 sm:grid-cols-2">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="text-lg font-bold">Paket Dasar</h3>
+          <p class="my-2">Rp 59.000 - eBook lengkap (PDF)</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="text-lg font-bold">Paket Spesial</h3>
+          <p class="my-2">Rp 89.000 - eBook + worksheet + doa harian</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow sm:col-span-2 border-2 border-amber-600 animate-bounce">
+          <h3 class="text-lg font-bold">Paket Lengkap (Rekomendasi)</h3>
+          <p class="my-2">Rp 129.000 - Semua fitur + audio dzikir + komunitas</p>
+        </div>
+      </div>
+    </section>
 
-    <h2>Siap Memulai Perjalanan Menuju Kebebasan Finansial?</h2>
-    <p>Jangan tunda. Mulailah dari langkah kecil hari ini — InsyaAllah ada jalan jika kita niatkan karena Allah.</p>
-    <a href="https://wa.me/6285695125597?text=Saya%20mau%20pesan%20eBook%20Lunas%20Hutang%20Lewat%20Jalur%20Langit" class="btn">Klik di sini untuk Pesan Sekarang</a>
+    <section class="mt-12 bg-white p-6 rounded-lg shadow">
+      <h2 class="text-xl font-bold text-amber-700 mb-4">Formulir Pemesanan</h2>
+      <form class="space-y-4" onsubmit="alert('Terima kasih! Kami akan hubungi Anda lewat WA.'); return false;">
+        <input type="text" placeholder="Nama Lengkap" required class="w-full border p-3 rounded-md" />
+        <input type="email" placeholder="Email Aktif" required class="w-full border p-3 rounded-md" />
+        <select required class="w-full border p-3 rounded-md">
+          <option value="">-- Pilih Paket --</option>
+          <option value="dasar">Paket Dasar - Rp 59.000</option>
+          <option value="spesial">Paket Spesial - Rp 89.000</option>
+          <option value="lengkap">Paket Lengkap - Rp 129.000</option>
+        </select>
+        <button type="submit" class="bg-amber-600 text-white px-5 py-3 rounded-lg hover:bg-amber-700 transition font-semibold">Kirim Pemesanan</button>
+      </form>
+    </section>
 
-    <footer>
-      <p>&copy; 2025 Lunas Hutang Lewat Jalur Langit. Semua hak dilindungi.</p>
-    </footer>
-  </div>
+    <section class="mt-12">
+      <h2 class="text-2xl font-semibold text-amber-700 mb-4">Pertanyaan Umum</h2>
+      <div class="space-y-4">
+        <div>
+          <strong>Apakah cocok untuk pemula dalam agama?</strong>
+          <p>Ya, bahasa yang digunakan ringan dan membumi.</p>
+        </div>
+        <div>
+          <strong>Apakah ini solusi instan?</strong>
+          <p>Tidak, ini adalah panduan ikhtiar dengan pendekatan spiritual dan realistis.</p>
+        </div>
+        <div>
+          <strong>Apakah eBook bisa dibaca di HP?</strong>
+          <p>Bisa, eBook berbentuk PDF dan kompatibel di semua perangkat.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-12 text-center">
+      <p class="mb-4 text-lg">Sudah siap memulai perjalanan lunas hutang?</p>
+      <a href="#order" class="inline-block bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition">Pesan Sekarang</a>
+    </section>
+  </main>
+
+  <footer class="text-center text-sm text-gray-500 mt-12 mb-6">
+    &copy; 2025 Lunas Hutang Lewat Jalur Langit. All rights reserved.
+  </footer>
 </body>
 </html>
